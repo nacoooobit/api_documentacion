@@ -1,3 +1,7 @@
+/**
+ * Porque: las operaciones privadas requieren identidad y permisos válidos.
+ * Para qué: verificar el token y autorizar rutas según el rol.
+ */
 const jwt = require('jsonwebtoken');
 const { jwtSecret } = require('../config');
 const { buscarPorId } = require('../services/authService');

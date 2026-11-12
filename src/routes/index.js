@@ -1,3 +1,7 @@
+/**
+ * Porque: cada operación debe tener una ruta y permisos definidos.
+ * Para qué: dirigir las solicitudes al controlador autorizado.
+ */
 const { Router } = require('express');
 const { autenticar, permitir } = require('../middlewares/auth');
 const auth = require('../controllers/authController');

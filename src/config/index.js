@@ -1,3 +1,7 @@
+/**
+ * Porque: los parámetros operativos pueden variar entre entornos.
+ * Para qué: configurar la API desde variables de entorno.
+ */
 require('dotenv').config();
 
 const entero = (valor, porDefecto) => {

@@ -1,3 +1,7 @@
+/**
+ * Porque: las jugadas deben cumplir las reglas oficiales antes de venderse.
+ * Para qué: validar números y calcular premios de Baloto.
+ */
 const AppError = require('../utils/AppError');
 
 const MAX_NUMERO = 43;

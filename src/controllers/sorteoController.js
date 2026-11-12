@@ -1,3 +1,7 @@
+/**
+ * Porque: los sorteos requieren operaciones HTTP de consulta y administración.
+ * Para qué: crear sorteos, consultar su estado y registrar resultados oficiales.
+ */
 const sorteoService = require('../services/sorteoService');
 
 exports.listar = (req, res) => res.json(sorteoService.listar(req.query));

@@ -1,3 +1,7 @@
+/**
+ * Porque: el entorno actual no está conectado a una base de datos persistente.
+ * Para qué: proveer datos temporales para ejecutar la API y reiniciar pruebas.
+ */
 const bcrypt = require('bcryptjs');
 
 let db;

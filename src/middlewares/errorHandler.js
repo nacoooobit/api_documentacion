@@ -1,3 +1,7 @@
+/**
+ * Porque: los errores internos deben traducirse en respuestas HTTP consistentes.
+ * Para qué: informar fallos al cliente sin exponer detalles internos.
+ */
 const AppError = require('../utils/AppError');
 
 function noEncontrado(req, res, next) {

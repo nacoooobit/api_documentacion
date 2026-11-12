@@ -1,3 +1,7 @@
+/**
+ * Porque: cada apuesta necesita un ciclo de vida verificable.
+ * Para qué: registrar, consultar, anular y pagar tiquetes.
+ */
 const crypto = require('crypto');
 const { getDb, nextId } = require('../data/store');
 const AppError = require('../utils/AppError');

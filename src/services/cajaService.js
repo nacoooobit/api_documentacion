@@ -1,3 +1,7 @@
+/**
+ * Porque: el dinero reportado debe contrastarse con las operaciones del día.
+ * Para qué: resumir ventas y pagos, y registrar diferencias de caja.
+ */
 const { getDb, nextId } = require('../data/store');
 const AppError = require('../utils/AppError');
 const { fechaLocal } = require('../utils/fechas');

@@ -1,3 +1,7 @@
+/**
+ * Porque: las reglas de operación dependen de fechas y horas consistentes.
+ * Para qué: centralizar conversiones y cálculos de tiempo.
+ */
 const { zonaHoraria } = require('../config');
 
 const fechaLocal = (fecha = new Date()) =>

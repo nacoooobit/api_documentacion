@@ -1,3 +1,7 @@
+/**
+ * Porque: las apuestas deben respetar modalidades, montos y reglas de pago.
+ * Para qué: validar apuestas de Chance y calcular sus premios.
+ */
 const AppError = require('../utils/AppError');
 const { apuestaMinChance, apuestaMaxChance } = require('../config');
 

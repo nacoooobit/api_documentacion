@@ -1,3 +1,7 @@
+/**
+ * Porque: las ventas dependen del estado y horario de cada sorteo.
+ * Para qué: administrar sorteos y liquidar tiquetes al registrar resultados.
+ */
 const { getDb, nextId } = require('../data/store');
 const AppError = require('../utils/AppError');
 const chance = require('./chanceService');

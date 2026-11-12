@@ -1,3 +1,7 @@
+/**
+ * Porque: las operaciones del puesto deben pertenecer a usuarios válidos.
+ * Para qué: autenticar usuarios y consultar sus perfiles.
+ */
 const bcrypt = require('bcryptjs');
 const jwt = require('jsonwebtoken');
 const { getDb } = require('../data/store');
